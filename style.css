@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;600&display=swap');
+
+
+body {
+  background-color: #e5e9ff;
+  ;
+  font-family: 'Cabin', sans-serif;
+}
+
+/* STYLING NAVBAR START */
+.navbar {
+  width: 100%;
+}
+
+.navbar-list {
+  text-align: center;
+}
+
+.navbar-components {
+  list-style: none;
+  display: inline-block;
+  color: black;
+
+}
+
+h3 {
+  font-family: 'Cabin', sans-serif;
+  letter-spacing: 2px;
+  font-weight: 800;
+  padding: 25px;
+  margin-right: 20px;
+  color: #7885D9;
+  font-size: 1.8rem;
+
+}
+
+.navbar-component {
+  /* display: block; */
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  font-family: 'Cabin', sans-serif;
+  font-weight: 500;
+  padding: 25px;
+  position: relative;
+  display: inline-block;
+  margin: 0 1rem;
+  font-size: 1.2rem;
+  letter-spacing: 0.5px;
+  opacity: 0.9;
+  transition: 0.3s;
+}
+
+.navbar-component::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 20px;
+  border-radius: 10px;
+  background-color: #7885D9;
+  left: -5px;
+  z-index: -1;
+  opacity: 0;
+  transition: 0.3s;
+
+}
+
+.navbar-component:hover {
+  color: #7885D9;
+}
+
+.navbar-component:hover:after {
+  width: 100%;
+  opacity: 0.2;
+
+}
+
+/* STYLING NAVBAR END */
+
+
+
+body .card {
+  height: 45vw;
+  width: 55vw;
+  background-color: white;
+  /* margin-left: 30vw; */
+  border-radius: 20px;
+  /* align-content: center; */
+  margin: auto;
+  /* margin-top: 5vw; */
+  /* box-shadow: 2vw 2vw 12vw 3vw #ccc; */
+
+}
+
+body .card #header {
+  height: 5vw;
+  background-color: #ffffff;
+  padding: 0vw;
+  border-top-color: #ffffff;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+body .card #header h1 {
+  color: #7885D9;
+  font-size: 2vw;
+  font-family: 'Cabin', sans-serif;
+  padding: 1vw;
+  text-align: center;
+}
+
+body .card #message-section::-webkit-scrollbar {
+  width: 10px;
+}
+
+body .card #message-section {
+  height: 32vw;
+  padding: 0 2.5vw;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #90a4ae #fff;
+}
+
+body .card #message-section::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+body .card #message-section::-webkit-scrollbar-thumb {
+  background-color: #90a4ae;
+  border-radius: 6px;
+  border: 3px solid #fff;
+}
+
+body .card #message-section #bot,
+body .card #message-section #user {
+  position: relative;
+  bottom: 0;
+  min-height: 1.5vw;
+  border: 0.15vw solid #000000;
+  background-color: #fff;
+  border-radius: 0px 1.5vw 1.5vw 1.8vw;
+  padding: 1vw;
+  margin: 1.5vw 0;
+}
+
+body .card #message-section #user {
+  border: 1.5px solid #000;
+  border-radius: 1.5vw 0vw 1.5vw 1.8vw;
+  background-color: #000;
+  float: right;
+}
+
+body .card #message-section #user #user-response {
+  color: #fff;
+}
+
+body .card #message-section .message {
+  color: #000;
+  clear: both;
+  line-height: 1.2vw;
+  font-size: 1.2vw;
+  padding: 8px;
+  position: relative;
+  margin: 8px 0;
+  max-width: 85%;
+  word-wrap: break-word;
+  z-index: 2;
+}
+
+body .card #input-section {
+  z-index: 1;
+  padding: 0 2.5vw;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  overflow: hidden;
+  height: 6vw;
+  width: 100%;
+}
+
+body .card #input-section input {
+  color: #000;
+  min-width: 0.5vw;
+  outline: none;
+  height: 5vw;
+  width: 45vw;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid #000 0.1vw;
+  font-size: 2.5vh;
+}
+
+body .card .send {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  flex: 0 0 auto;
+  margin-left: 1.4vw;
+  margin-right: 0vw;
+  padding: 0;
+  position: relative;
+  outline: none;
+}
+
+body .card .send .circle {
+  position: relative;
+  width: 4.8vw;
+  height: 4.8vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body .card .send .circle i {
+  font-size: 3vw;
+  margin-left: -1vw;
+  margin-top: 1vw;
+  color: #7885D9;
+}
+
+.card-title{
+  color: #7885D9;
+}

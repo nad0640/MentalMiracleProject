@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;600&display=swap');
+
+/* * {
+  font-size: 1.3vw;
+  font-family: 'Cabin', sans-serif;
+} */
+
+body {
+  background-color: #ffffff;
+  ;
+  font-family: 'Cabin', sans-serif;
+}
+
+/* #e5e9ff */
+.question {
+  color: #7885D9;
+}
+
+.btn {
+  margin-left: 5vw;
+  display: inline-block;
+  padding: 2vh 3vw;
+  border-style: solid;
+  border-radius: 30px;
+  border-color: #7885D9;
+  text-decoration: none;
+  min-width: 100px;
+  background-color: white;
+  text-align: center;
+  color: #7885D9;
+  font-size: 2.5vh;
+  letter-spacing: 0.4px;
+  text-transform: capitalize;
+}
+
+.btn:hover {
+  background-color: #A6B3F7;
+  color: #ffffff;
+}
+
+/* STYLING NAVBAR START */
+.navbar {
+  width: 100%;
+  /* background-color: rgba(0,0,0,0); */
+}
+
+.navbar-list {
+  text-align: center;
+}
+
+.navbar-components {
+  list-style: none;
+  display: inline-block;
+  color: black;
+
+}
+
+h3 {
+  font-family: 'Cabin', sans-serif;
+  letter-spacing: 2px;
+  font-weight: 800;
+  padding: 25px;
+  margin-right: 20px;
+  color: #7885D9;
+
+}
+
+.navbar-component {
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  font-size: 16px;
+  font-family: 'Cabin', sans-serif;
+  letter-spacing: 2px;
+  font-weight: 500;
+  padding: 25px;
+}
+
+/* STYLING NAVBAR END */
+.quizMargin{
+  padding-left: 5%;
+  /* margin-left: 10%; */
+}
+
+/* .container{
+  padding-left: 1.5vh;
+} */
+
+.techJobQuiz{
+  padding-left: 2vw;
+}
+

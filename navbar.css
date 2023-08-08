@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;600&display=swap');
+
+
+/* STYLING NAVBAR START */
+.navbar{
+width: 100%;
+}
+
+.navbar-list{
+  text-align: center;
+}
+
+.navbar-components{
+  list-style: none;
+  display: inline-block;
+  color:black;
+ 
+}
+h3 {
+ font-family: 'Cabin', sans-serif;
+  letter-spacing: 2px;
+  font-weight: 800;
+  padding: 25px;
+  margin-right: 20px;
+  color: #7885D9;
+  font-size: 1.8rem;
+ 
+}
+
+.navbar-component{
+  /* display: block; */
+  text-decoration:none;
+  text-transform: uppercase;
+  color: black;
+  font-family: 'Cabin', sans-serif;
+  font-weight: 500;
+  padding: 25px; 
+  position: relative;
+  display: inline-block;
+  margin: 0 1rem;
+  font-size: 1.2rem;
+  letter-spacing: 0.5px;
+  opacity: 0.9;
+  transition: 0.3s;
+}
+
+.navbar-component::after{
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 20px;
+  border-radius: 10px;
+  background-color: #7885D9;
+  /* bottom: -0.02rem; */
+  left: -5px;
+  z-index: -1;
+  opacity: 0;
+  transition: 0.3s;
+  
+}
+
+.navbar-component:hover{
+  color: #7885D9;
+}
+
+.navbar-component:hover:after{
+  width: 100%;
+  opacity: 0.2;
+  
+}
+
+/* STYLING NAVBAR END */

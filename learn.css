@@ -1,0 +1,90 @@
+
+/* STYLING NAVBAR START */
+.navbar {
+  width: 100%;
+  /* background-color: rgba(0,0,0,0); */
+}
+
+.navbar-list {
+  text-align: center;
+}
+
+.navbar-components {
+  list-style: none;
+  display: inline-block;
+  color: black;
+
+}
+
+h3 {
+  font-family: 'Cabin', sans-serif;
+  letter-spacing: 2px;
+  font-weight: 800;
+  padding: 25px;
+  margin-right: 20px;
+  color: #7885D9;
+
+}
+
+.navbar-component {
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  font-size: 16px;
+  font-family: 'Cabin', sans-serif;
+  letter-spacing: 2px;
+  font-weight: 500;
+  padding: 25px;
+}
+
+/* STYLING NAVBAR END */
+info {
+  border-style: solid;
+  border-color: black;
+  border-radius: 20px;
+  color: white;
+  background-color: #7785D9;
+  padding: 2vh;
+  margin-left: 3vw;
+  margin-right: 3vw; 
+}
+
+/*STYLING TITLE CARDS START */
+
+.title-container{
+  background-color: #E5E9FF;
+  margin: 30px;
+  border-radius: 12px;
+  padding: 3vh;
+}
+
+.title-card{
+  background-color: white;
+  border-radius: 12px;
+  color:black;
+  /* font-family: 'Assistant', sans-serif; */
+   font-family: 'Cabin', sans-serif;
+  text-align: left;
+  padding: 3vh;
+  margin-top:3vh;
+  margin-bottom:3vh;
+  
+}
+
+.title-card-title{
+  text-align: center;
+  font-size:35px;
+  color: #7785D9;
+ 
+}
+.title-card-text{
+  line-height: 35.5px;
+  /* text-align: center; */
+   text-align: left;
+  
+}
+
+ 
+
+/* STYLING TITLE CARDS END */
